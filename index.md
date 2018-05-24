@@ -23,4 +23,34 @@ git rm --cached [xxx文件]
 git commit -m "内容"
 
 
-6.
+6.建立本地跟远程端的连接 （ssh和https）
+
+git remote add origin [远程服务器的链接]
+
+7.把缓存区的代码上传到服务器
+
+git push origin master 
+
+
+
+
+
+更新修改  
+
+同步更新服务器的上的文档
+git pull origin master
+
+
+本地内容更新到服务器上
+
+
+
+
+
+
+下载
+
+git clone [远程服务器端的地址]
+例如git clone https://github.com/djm007djm/first.git
+
+
